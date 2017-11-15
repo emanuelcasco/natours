@@ -4,13 +4,13 @@
   "description": "Landing page for Natours",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch",
+    "build": "./node_modules/.bin/gulp build",
+    "watch": "./node_modules/.bin/gulp watch",
     "start": "live-server ./dist",
     "dev": "npm-run-all --parallel watch start"
   },
   "author": "Emanuel Casco",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
