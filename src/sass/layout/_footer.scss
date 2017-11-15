@@ -1,0 +1,80 @@
+.footer {
+    background-color: $color-smoke-black;
+    padding: 5rem 0;
+    font-size: 1.4rem;
+    color: $color-grey-light;
+    text-align: center;
+  
+    &__logo-box {
+        text-align: center;
+    }
+  
+    &__logo {
+        width: 30rem;
+        height: auto;
+        margin-bottom: 2.5rem;
+        
+      @include respond(phone) {
+          width: 25rem;
+      }
+    }
+  
+    &__navigation {
+        display: inline-block;
+    }
+  
+    &__list {
+        border-top: 1px solid $color-grey-dark;
+        list-style: none;
+    }
+  
+    &__item {
+        display: inline-block;
+  
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+  
+        @include respond(phone) {
+          display: block;
+          margin: 2.5rem 0 !important;
+          font-size: 2rem;
+        }
+    }
+  
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-grey-light;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .2s;
+        }
+  
+        &:hover,
+        &:active {
+            color: $color-primary;
+            transform: rotate(5deg) scale(1.1);
+        }
+  
+        &--heart {
+          font-size: 1.7rem;
+          color: $color-red-light !important;
+        }
+    }
+  
+    &__copyright {
+        font-weight: 300;
+        letter-spacing: .5rem;
+        display: block;
+        padding-top: 2rem;
+
+        @include respond(phone) {
+            display: block;
+            margin: 2.5rem 0 !important;
+            font-size: 2rem;
+            letter-spacing: .2rem;
+          }
+    }
+  }

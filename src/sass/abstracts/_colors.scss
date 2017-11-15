@@ -1,0 +1,39 @@
+// Grey scale
+$color-smoke-black: rgb(51, 51, 51);
+$color-grey-darker: rgb(100, 100, 100);
+$color-grey-dark: rgb(153, 153, 153);
+$color-grey: rgb(178, 178, 178);
+$color-grey-light: rgb(249, 249, 249);
+$color-smoke-white: rgb(245, 245, 245);
+
+$color-green-light: rgb(126, 213, 111);
+$color-green: rgb(85, 197, 122);
+$color-green-dark: rgb(40, 180, 131);
+
+$color-blue-light: rgb(52, 191, 219);
+$color-blue: rgb(41, 128, 185);
+$color-blue-dark: rgb(27, 85, 121);
+
+$color-yellow-light: rgb(253, 216, 53);;
+$color-yellow: rgb(249, 168, 37);
+$color-yellow-dark: rgb(251, 140, 0);
+
+$color-red-light: rgb(255, 82, 79);
+$color-red: rgb(211, 47, 47);
+$color-red-dark: rgb(159, 47, 37);
+
+$color-pink-light: rgb(236, 64, 122);
+$color-pink: rgb(216, 27, 96);
+$color-pink-dark: rgb(136, 14, 79);
+
+$color-primary-light: $color-green-light;
+$color-primary: $color-green;
+$color-primary-dark: $color-green-dark;
+
+$color-secondary-light: $color-yellow-light;
+$color-secondary: $color-yellow;
+$color-secondary-dark: $color-yellow-dark;
+
+$color-tertiary-light: $color-blue-light;
+$color-tertiary: $color-blue;
+$color-tertiary-dark: $color-blue-dark;
